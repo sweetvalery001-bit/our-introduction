@@ -24,6 +24,12 @@
 @keyframes petal-fall{0%{opacity:0;transform:translate3d(0,0,0) rotate(var(--rotation))}10%{opacity:.65}45%{transform:translate3d(var(--drift),48svh,0) rotate(calc(var(--rotation) + 100deg)) rotateY(65deg)}85%{opacity:.55}100%{opacity:0;transform:translate3d(calc(var(--drift) * -.5),110svh,0) rotate(calc(var(--rotation) + 240deg))}}
 #cover.celebrating .envelope{box-shadow:0 30px 100px #0009,0 0 110px #e6bb6866}
 @media(prefers-reduced-motion:reduce){#petals{display:none}}
+
+/* Richer floral frame, animated independently of the invitation text. */
+.paper{position:relative;isolation:isolate;overflow:hidden;background:#fffaf0}
+.paper:before{content:'';position:absolute;inset:-8px -5px;z-index:-1;pointer-events:none;background:url('florals.png') center top/100% auto no-repeat;filter:saturate(1.38) contrast(1.15);transform-origin:50% 25%;animation:floral-sway 12s ease-in-out infinite alternate}
+@keyframes floral-sway{from{transform:translate3d(-2px,0,0) rotate(-.35deg) scale(1.012)}to{transform:translate3d(2px,3px,0) rotate(.35deg) scale(1.025)}}
+@media(prefers-reduced-motion:reduce){.paper:before{animation:none;transform:none}}
 </style><meta property="og:type" content="website">
 <meta property="og:title" content="Adunola &amp; Olasunkanmi's Introduction Ceremony">
 <meta property="og:description" content="You are invited • 12 December 2026 at 12 noon • Ikeja, Lagos. Open your invitation and RSVP.">
