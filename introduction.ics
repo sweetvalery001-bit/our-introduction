@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Adunola and Olasunkanmi//Introduction Invitation//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:20261212-introduction@sweetvalery001-bit.github.io
+DTSTAMP:20260929T150019Z
+DTSTART:20261212T110000Z
+SUMMARY:Adunola & Olasunkanmi's Introduction Ceremony
+LOCATION:Ikeja\, Lagos
+DESCRIPTION:12 December 2026 at 12 noon (West Africa Time).\nDress code: Wh
+ ite with a touch of gold.\nPlease contact either RSVP host for the exact v
+ enue and directions.\nDEIRK: +234 905 487 1652\nVALERY: +234 807 150 9029\
+ nInvitation: https://sweetvalery001-bit.github.io/our-introduction/
+URL:https://sweetvalery001-bit.github.io/our-introduction/
+END:VEVENT
+END:VCALENDAR
